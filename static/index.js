@@ -441,10 +441,10 @@ const MODE_NORMAL = 1, MODE_ENDLESS = 2, MODE_PRACTICE = 3;
             SubmitResults();
         }
 
-        if (cps <= 5) return '试着好好练一下？';
-        if (cps <= 8) return 'TCL';
-        if (cps <= 10)  return 'TQL';
-        if (cps <= 15) return '皮皮我是你爹';
+        if (cps <= 20) return '¿';
+        if (cps <= 50) return '老贾很生气，要和你决斗';
+        if (cps <= 100)  return '老贾很开心，怒吃三大碗兰州拉面';
+        if (cps <= 150) return '皮皮我是你爹';
         return '老贾爱你';
     }
 
