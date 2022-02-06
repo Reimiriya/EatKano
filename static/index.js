@@ -441,7 +441,7 @@ const MODE_NORMAL = 1, MODE_ENDLESS = 2, MODE_PRACTICE = 3;
             SubmitResults();
         }
 
-        if (cps <= 20) return '¿';
+        if (cps <= 20) return '皮皮我是你爹';
         if (cps <= 50) return '老贾很生气，要和你决斗';
         if (cps <= 100)  return '老贾很开心，怒吃三大碗兰州拉面';
         if (cps <= 150) return '皮皮我是你爹';
